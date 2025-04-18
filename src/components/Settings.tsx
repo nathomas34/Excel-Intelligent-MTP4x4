@@ -153,7 +153,7 @@ export const Settings: React.FC<{ isOpen: boolean; onClose: () => void }> = ({
                     : 'hover:bg-gray-50 dark:hover:bg-gray-700 dark:border-gray-600 dark:text-gray-300'
                 }`}
               >
-                <img src="https://mistral.ai/images/logo-dark.svg" alt="Mistral" className="w-8 h-8 dark:invert" />
+                <img src="https://cdn.jaimelesstartups.fr/wp-content/uploads/2024/02/Logo%20de%20la%20startup%20Mistral.ai" alt="Mistral" className="w-8 h-8 dark:invert" />
                 <span className="font-medium">Mistral AI</span>
               </button>
             </div>
