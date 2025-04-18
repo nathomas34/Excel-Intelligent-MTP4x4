@@ -103,7 +103,7 @@ export const Settings: React.FC<{ isOpen: boolean; onClose: () => void }> = ({
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl w-[800px] max-w-full max-h-[90vh] overflow-hidden">
         <div className="flex items-center justify-between p-4 border-b dark:border-gray-700">
-          <h2 className="text-xl font-semibold dark:text-white">{t('settings.title')}</h2>
+          <h2 className="text-xl font-semibold dark:text-white">{t('settings')}</h2>
           <button
             onClick={onClose}
             className="p-1 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-full transition-colors"
@@ -659,14 +659,14 @@ export const Settings: React.FC<{ isOpen: boolean; onClose: () => void }> = ({
             onClick={onClose}
             className="px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md transition-colors"
           >
-            {t('settings.buttons.cancel')}
+            {t('cancel')}
           </button>
           <button
             onClick={onClose}
             className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors flex items-center gap-2"
           >
             <Save className="w-4 h-4" />
-            {t('settings.buttons.save')}
+            {t('save')}
           </button>
         </div>
       </div>
